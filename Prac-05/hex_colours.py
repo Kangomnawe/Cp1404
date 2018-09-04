@@ -14,4 +14,4 @@ while colour != "":
         print(colour, "is", COLOUR_CODES[colour])
     else:
         print("Invalid short colour")
-    colour = input("Enter short colour: ").upper()
+    colour = input("This colour, we don't have in the list: ").upper()
