@@ -10,9 +10,9 @@ STATE_NAMES_dict = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northe
                "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
 for i in state:
     if state in state_list:
-        STATE_NAMES[state] += 1
+        STATE_NAMES[state]
     else:
-        STATE_NAMES_dict[state] = STATE_NAMES_dict.get(state, 0) + 1
+        STATE_NAMES_dict[state] = STATE_NAMES_dict.get(state,
 
 # print(STATE_NAMES)
 

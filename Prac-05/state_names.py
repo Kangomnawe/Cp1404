@@ -6,7 +6,7 @@ File needs reformatting
 
 # TODO: Reformat this file so the dictionary code follows PEP 8 convention
 STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
-                   "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
+               "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
 # print(STATE_NAMES)
 
 state = input("Enter short state: ").upper()
@@ -15,8 +15,4 @@ while state != "":
         print(state, "is", STATE_NAMES[state])
     else:
         print("Invalid short state")
-        state = input("Enter short state: ").upper()
-state = "Full"
-print("Enter state initials.")
-
-
+    state = input("Enter short state: ").upper()

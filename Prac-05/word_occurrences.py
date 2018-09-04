@@ -13,3 +13,23 @@ words : 2
 """
 
 text = "this is a collection of words of nice words this is a fun thing it is"
+
+fnneme = input("Enter you file name: ")
+if len(fnneme) < 1:
+    fnneme = 'text.txt'
+file = open(fnneme)
+
+di = dict()
+
+for lin in file:
+    lin = lin.rstrip()
+    # print(lin)
+    wds = lin.split()
+    # print(wds)
+    for w in wds:
+        if w in di:
+            di[w] = di[w] + 1
+        else:
+            di[w] = 1
+            print("count")
+        print(w, di[w])
