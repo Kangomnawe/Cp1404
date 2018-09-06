@@ -19,8 +19,9 @@ text = {1: 'this', 2: 'is', 3: 'a', 4:'collection', 5: 'of', 6: 'words', 7: 'of'
 word = input("Enter you any word: ")
 if len(word) < 1:
     word = 'text'
-text = open(word)
-
+# pass
+# text = open(word)
+pass
 # print(text)
 
 di = dict()
