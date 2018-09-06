@@ -12,16 +12,20 @@ this : 2
 words : 2
 """
 
-text = "this is a collection of words of nice words this is a fun thing it is"
 
-fnneme = input("Enter you file name: ")
-if len(fnneme) < 1:
-    fnneme = 'text.txt'
-file = open(fnneme)
+text = {1: 'this', 2: 'is', 3: 'a', 4:'collection', 5: 'of', 6: 'words', 7: 'of', 8: 'nice', 9: 'words', 11: 'this',
+        12: 'is', 13: 'a', 14: ' fun', 15: 'thing', 16: 'it', 17: 'is'}
+
+word = input("Enter you any word: ")
+if len(word) < 1:
+    word = 'text'
+text = open(word)
+
+# print(text)
 
 di = dict()
 
-for lin in file:
+for lin in text:
     lin = lin.rstrip()
     # print(lin)
     wds = lin.split()
