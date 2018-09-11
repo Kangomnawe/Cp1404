@@ -2,7 +2,7 @@
 # Note that the import has a folder (module) in it.
 
 # from Prac-06
-from Prac-06.car import car
+from prac-06.car import car
 
 
 def main():
