@@ -27,3 +27,16 @@ class Car:
             self.fuel -= distance
         self.odometer += distance
         return distance
+
+    def __str__(self, car, fuel=24, odometer=277):
+        return "Car {} {}, {}".format(self.car, self.fuel, self.odometer)
+
+        # self.car = car
+        # self.fuel -= fuel
+        # self.odometer += odometer
+
+    # def __init__(self, name):
+    #     self.name = name
+    #
+    # def __str__(self, nsme):
+    #     return "{}".format(self.name)

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="0067b81e-e513-4970-a2c1-e174dbcbc341" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac_04/list_comprehension.py" afterPath="$PROJECT_DIR$/Prac_04/list_comprehension.py" />
     </list>
+=======
+    <list default="true" id="0067b81e-e513-4970-a2c1-e174dbcbc341" name="Default" comment="" />
+>>>>>>> Stashed changes
     <ignored path="Cp1404.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -361,7 +365,81 @@
       <option name="project" value="LOCAL" />
       <updated>1535003388037</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="3" />
+=======
+    <task id="LOCAL-00003" summary="list">
+      <created>1536212435685</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536212435685</updated>
+    </task>
+    <task id="LOCAL-00004" summary="car">
+      <created>1536212683576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536212683576</updated>
+    </task>
+    <task id="LOCAL-00005" summary="list">
+      <created>1536212803202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536212803202</updated>
+    </task>
+    <task id="LOCAL-00006" summary="list">
+      <created>1536213075161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536213075161</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dir">
+      <created>1536213447231</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536213447231</updated>
+    </task>
+    <task id="LOCAL-00008" summary="word count">
+      <created>1536218613316</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536218613316</updated>
+    </task>
+    <task id="LOCAL-00009" summary="word count">
+      <created>1536640089875</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536640089875</updated>
+    </task>
+    <task id="LOCAL-00010" summary="word count">
+      <created>1536640151449</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536640151449</updated>
+    </task>
+    <task id="LOCAL-00011" summary="used_car">
+      <created>1536640539719</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1536640539719</updated>
+    </task>
+    <task id="LOCAL-00012" summary="used_car">
+      <created>1536641522821</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1536641522821</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="ToolWindowManager">
