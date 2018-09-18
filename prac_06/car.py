@@ -39,5 +39,5 @@ class Car:
     # def __init__(self, name):
     #     self.name = name
     #
-    # def __str__(self, nsme):
-    #     return "{}".format(self.name)
+    # def __str__(self, name):
+    # return "{}".format(self.name)
