@@ -1,0 +1,36 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'vertical'
+        # this layout is populated with (button) widgets in app code
+        id: entries_box
+        cols: 1
+        orientation: 'vertical'
+    Label:
+        size_hint_y: 0.1
+        text: app.status_text
+#    BoxLayout:
+#        orientation: "horizontal"
+    TextInput:
+        id: name_input
+        size_hint_y: 0.1
+        text: 'Name:'
+        font_size: 20
+        on_text: app.adding_phone_book()
+    TextInput:
+        id: number_input
+        size_hint_y: 0.1
+        text: 'Number:'
+        font_size: 20
+        on_text: app.adding_phone_book()
+
+
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint_y: 0.2
+        Button:
+            text: "Create Widgets"
+            on_release: app.create_widgets()
+        Button:
+            text: "Clear Widgets!"
+            on_release: app.clear_all()
