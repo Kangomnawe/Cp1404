@@ -23,7 +23,9 @@ BoxLayout:
         text: 'Number:'
         font_size: 20
         on_text: app.adding_phone_book()
-
+    Label:
+        size_hint_y: 0.1
+        text: app.status_text
 
     BoxLayout:
         orientation: 'horizontal'

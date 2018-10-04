@@ -4,6 +4,6 @@ name = Bob(name.txt)
 
 name = close(name.txt)
 print("Your name is Bob")
-name =close(name.txt)
-number = input(number.txt, r)
+name = close(name.txt)
+number = input(number.txt)
 number = open(17, 42)
