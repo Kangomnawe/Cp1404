@@ -2,8 +2,24 @@ BoxLayout:
     orientation: 'horizontal'
     Button:
         size_hint_x: None
-        width: 100
+        width: 200
         text: 'one'
+
+
+#    Button:
+#    size_hint_x:None
+#    width:0.8
+#    text: ''
+
     Label:
         size_hint: 1, 1
         text: 'two'
+
+    TextInput:
+        id: number_input
+        width: 10
+        size_hint_y:None
+        size_hint_x:200
+        text: 'Number:'
+        font_size: 12
+        on_text: app.adding_phone_book()
